@@ -1,0 +1,9 @@
+#email, #linkedin, #github{
+    display:inline-block;
+    min-width: 182px; /*prevents overlap*/
+}
+#email:hover, #linkedin:hover, #github:hover{
+    background: rgb(73, 78, 78);
+    border-radius: 5px;
+    color:white;
+}
