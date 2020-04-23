@@ -6,7 +6,7 @@
 
 
 #background-nature{
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
     z-index: -1;
@@ -30,10 +30,11 @@
     #background-nature{
         display:none;
     }
-    /*
-    body{
-        background:url('./images/poster.png');
+    .full-page{
+        background:url('../images/poster.png');
+        width:100%;
+        min-height: 200px;
         background-size: cover;
     }
-    */
+
 }

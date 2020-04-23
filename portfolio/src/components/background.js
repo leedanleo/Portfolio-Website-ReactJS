@@ -7,7 +7,7 @@ import './style/background.css';
 export default class Background extends React.Component {
     render() {
       return (
-        <div className="Background-nature">
+        <div className="full-page">
             <div id="content">
               This is where the content wil be
             </div>
