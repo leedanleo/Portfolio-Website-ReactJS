@@ -1,0 +1,14 @@
+
+@media(max-width: 767px){
+    #clock-style{
+        font-size: 14px;
+    }
+
+}
+
+@media(min-width: 768px){
+    #clock-style{
+        font-size: 20px;
+    }
+
+}
