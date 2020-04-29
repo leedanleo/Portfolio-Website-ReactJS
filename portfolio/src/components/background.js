@@ -8,10 +8,7 @@ export default class Background extends React.Component {
     render() {
       return (
         <div className="full-page">
-            <div id="content">
-              This is where the content wil be
-            </div>
-            <video id="background-nature" poster={VideoPoster} controls autoPlay loop muted>
+            <video id="background-nature" poster={VideoPoster} autoPlay loop muted>
               <source src={Nature} type="video/mp4" />
             </video>
         </div>

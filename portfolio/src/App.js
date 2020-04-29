@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Background from "./components/background";
+import Home from "./components/home";
 import Clock from "./components/clock";
 export default class App extends React.Component{
   render() {
@@ -13,7 +14,8 @@ export default class App extends React.Component{
         <div className="App">
           <Background />
           <Clock/>
-          <Header />  
+          <Header /> 
+          <Home/> 
           <Switch>
             {/* <route path="/" exact component={home}/>
             <route path="/education" component={education}/>

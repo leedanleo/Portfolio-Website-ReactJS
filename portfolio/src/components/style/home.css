@@ -1,0 +1,4 @@
+#education, #experience, #activities,#project{
+    display:inline-block;
+    min-width: 182px; /*prevents overlap*/
+}
