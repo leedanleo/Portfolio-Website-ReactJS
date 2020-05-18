@@ -1,11 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import './style/header.css';
 
 export default class Header extends React.Component {
   render() {
     return (
       <header>
-          Header Place Here
+          <br>
+          </br>
+          <br></br>
+          <div id="title">Daniel Lee - Portfolio</div>
+          <br></br>
+          <br>
+          </br>
+          <br></br>
       </header>
     );
   }

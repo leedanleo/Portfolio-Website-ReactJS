@@ -1,0 +1,128 @@
+
+.experience {
+
+    margin-top: 10px;
+
+    margin-right: 20%;
+
+    margin-left: 20%;
+
+    margin-bottom: 10px;
+
+    background-color: darkgrey !important;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.row #back{
+
+    text-align:center;
+
+    height:200px;
+
+    font-weight:bold;
+
+}
+
+div#back.container{
+
+    background-color: transparent;
+
+}
+
+.row #back-img:hover{
+
+    text-align:center;
+
+    height:120px;
+
+    font-weight:bold;
+
+    background-color: teal;
+
+    border-radius: 5px;
+
+}
+
+.experience-head{
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    text-align:center;
+
+    margin: 10px 10px 10px 10px;
+
+}
+
+.experience{
+
+    font-size: 24px;
+
+    color: white;
+
+    font-weight: bold;
+
+    text-align:center;
+
+    background-color: teal;
+
+    margin: 10px 10px 10px 10px;
+
+    border-radius: 5px;
+
+}
+
+.container {
+
+    background-color: rgba(20, 121, 82, 0.514);
+
+    margin-top: 10px;
+
+    margin-bottom: 30px;
+
+}
+
+div.row{
+
+    margin-right: auto;
+
+}
+
+.row #core-technology-position,.row #keywords-position, .row #description-position,.row #duration-position, .row #title-position , .row #company-position, .row #location-position{
+
+    color: white;
+
+    background-color: rgb(184, 129, 46);
+
+    border-radius: 5px;
+
+    margin: 10px 10px 10px 10px;
+
+}
+
+
+
+.row #core-technology-position,.row #keywords-position{
+
+    font-size: 14px;
+
+}
+
+.row #title-position , .row #company-position{
+
+    font-size: 20px;
+
+    float: left;
+
+}
+
+.row #duration-position{
+    font-size:18px;
+}
+.row #description-position{
+    font-size: 16px;
+}
+

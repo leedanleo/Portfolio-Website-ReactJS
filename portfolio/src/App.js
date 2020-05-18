@@ -1,28 +1,40 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 import Header from "./components/header";
 import Footer from "./components/footer";
+
+
 import Background from "./components/background";
 import Home from "./components/home";
 import Clock from "./components/clock";
+import Profile from "./components/profile";
+
+
+import Education from "./components/education";
+import Projects from "./components/projects";
+import Experience from "./components/experience";
+import Activities from "./components/activities";
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 export default class App extends React.Component{
   render() {
     return (
       <Router>
         <div className="App">
           <Background />
+          <Profile/>
           <Clock/>
           <Header /> 
           <Home/> 
           <Switch>
-            {/* <route path="/" exact component={home}/>
-            <route path="/education" component={education}/>
-            <route path="/projects" component={projects}/>
-            <route path="/workExperience" component={workExperience}/>
-            <route path="/paintGallery" component={workExperience}/>
-            <route path="/activitiesAndVolunteering" component={activitiesAndVolunteering}/> */}
+            <Route path="/" exact component={Home}/>
+            <Route path="/education" component={Education}/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/experience" component={Experience}/>
+            <Route path="/activities" component={Activities}/>
           </Switch>
           <Footer />
         </div>
