@@ -1,47 +1,10 @@
 
 .experience {
-
     margin-top: 10px;
-
     margin-right: 20%;
-
     margin-left: 20%;
-
     margin-bottom: 10px;
-
-    background-color: darkgrey !important;
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.row #back{
-
-    text-align:center;
-
-    height:200px;
-
-    font-weight:bold;
-
-}
-
-div#back.container{
-
-    background-color: transparent;
-
-}
-
-.row #back-img:hover{
-
-    text-align:center;
-
-    height:120px;
-
-    font-weight:bold;
-
-    background-color: teal;
-
-    border-radius: 5px;
 
 }
 

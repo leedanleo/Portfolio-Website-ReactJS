@@ -11,32 +11,31 @@ export default class Education extends React.Component {
 
             <div class="container">
                 <div class="box">
-                    <div class="grid-container">Master of Science Computer Science</div>
-                    <div class="grid-container">Portland State University</div>
-                    <div class="grid-container">2017 — 2020</div>
-                    <div class="grid-container">GPA 3.68</div>
-
+                    Master of Science Computer Science<br/>
+                    Portland State University<br/>
+                    2017 — 2020<br/>
+                    GPA 3.68<br/>
                 </div>
 
                 <div class="box">
-                    <div class="grid-container">Master of Science Renewable Energy Engineering</div>
-                    <div class="grid-container">Oregon Institute of Technology</div>
-                    <div class="grid-container">2013—2015</div>
-                    <div class="grid-container">GPA 3.67</div>
+                    Master of Science Renewable Energy Engineering<br/>
+                    Oregon Institute of Technology<br/>
+                    2013—2015<br/>
+                    GPA 3.67<br/>
                 </div>
 
                 <div class="box">
-                    <div class="grid-container">Master's Certification in Project Management</div>
-                    <div class="grid-container">Portland State University</div>
-                    <div class="grid-container">2014—2015</div>
-                    <div class="grid-container">GPA 3.92</div>
+                    Master's Certification in Project Management<br/>
+                    Portland State University<br/>
+                    2014—2015<br/>
+                    GPA 3.92<br/>
                 </div>
 
                 <div class="box">
-                    <div class="grid-container">Bachelor of Science Renewable Energy Engineering</div>
-                    <div class="grid-container">Oregon Institute of Technology</div>
-                    <div class="grid-container">2009—2013</div>
-                    <div class="grid-container">GPA 3.87</div>
+                    Bachelor of Science Renewable Energy Engineering<br/>
+                    Oregon Institute of Technology<br/>
+                    2009—2013<br/>
+                    GPA 3.87<br/>
                 </div>
             </div>
         </div>
