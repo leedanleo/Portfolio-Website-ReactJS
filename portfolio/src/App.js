@@ -15,7 +15,7 @@ import Profile from "./components/profile";
 import Education from "./components/education";
 import Projects from "./components/projects";
 import Experience from "./components/experience";
-import Activities from "./components/activities";
+//import Activities from "./components/activities";
 import Introduction from "./components/introduction";
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -35,7 +35,6 @@ export default class App extends React.Component{
             <Route path="/education" component={Education}/>
             <Route path="/projects" component={Projects}/>
             <Route path="/experience" component={Experience}/>
-            <Route path="/activities" component={Activities}/>
           </Switch>
           <Footer />
         </div>

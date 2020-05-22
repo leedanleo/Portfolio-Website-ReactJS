@@ -10,7 +10,7 @@ export default class Projects extends React.Component {
         <div class="project-head">Projects</div>
         <div class="machine-learning">Machine Learning & Artificial Intelligence
         </div>
-        <div class="container">
+        <div class="container" id="border-end">
                     <div class="row">
                         <div class="col-sm-12" id="title-project"> Loan Default Predictor
                         </div>
@@ -21,6 +21,7 @@ export default class Projects extends React.Component {
                     </div>
                     <div class="row">
                         <div class="col-sm-12" id="description-project">
+                            <br></br>
                             I utilized three classification machine learning algorithms to classify based on 24 attributes if a
                             person were to default on their credit card statements. The three classification methods used
                             were deep learning neural networks and naïve Bayes. The deep learning neural network was
@@ -46,11 +47,12 @@ export default class Projects extends React.Component {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12" id="duration-project"> February 2019 - Present
+                        <div class="col-sm-12" id="duration-project"> February 2020 - April 2020
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12" id="description-project">
+                        <br></br>
                             This a website that is built on react to be able show people in the portland places to play amateur sports. Currently the 
                             site has volleyball, basketball, and tennis. This application uses the google maps api to set locations in the area. The rendering for
                             application is chosen based on sport and day of the week the gyms/locations are available that week. This application is designed in hopes that all 
@@ -72,18 +74,19 @@ export default class Projects extends React.Component {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12" id="duration-project"> Janurary 2019 - Present
+                        <div class="col-sm-12" id="duration-project"> January 2020 - Present
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12" id="description-project">
+                        <br></br>
                             I developed a portfolio website that showcases my education, work experience, art gallery, projects, and activities. 
                             The website utilizes bootstrap as the front-end framework. The website is deployed by github's free website service. The website is to showcase
                             my abilities using CSS, HTML, and Javascript.
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12" id="core-technology-project">Core Technologies: Bootstrap, CSS, HTML, Javascript
+                        <div class="col-sm-12" id="core-technology-project">Core Technologies: Bootstrap, CSS, HTML, Javascript, ReactJs
                         </div>
                     </div>
                     <div class="row">
@@ -91,7 +94,7 @@ export default class Projects extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" id="border-end">
                     <div class="row">
                         <div class="col-sm-12" id="title-project"> Web Recipe Book
                         </div>
@@ -102,6 +105,7 @@ export default class Projects extends React.Component {
                     </div>
                     <div class="row">
                         <div class="col-sm-12" id="description-project">
+                            <br></br>
                             I developed a front-end application of a recipe book that can store recipes by uploading
                             images of the recipe and read out the full recipe to the vision impaired. The application
                             utilizes google cloud machine learning APIs in vision and text to speech and was deployed to
@@ -119,7 +123,7 @@ export default class Projects extends React.Component {
                 </div>
                 <div class="database">Databases
                 </div>
-                <div class="container">
+                <div class="container" id="border-end">
                     <div class="row">
                         <div class="col-sm-12" id="title-project"> Database System Analysis Benchmark
                         </div>
@@ -130,6 +134,7 @@ export default class Projects extends React.Component {
                     </div>
                     <div class="row">
                         <div class="col-sm-12" id="description-project">
+                            <br></br>
                             I have developed and deployed a database on the Microsoft Azure SQL database system. The
                             goal of the project was to expand my experience utilizing cloud databases as well as test the
                             speed and quality of the database utilizing the Wisconsin benchmark. The input data was
@@ -147,11 +152,35 @@ export default class Projects extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div class="network">Networks
-                </div>
-                <div class="container">
+                <div class="container" id="border-end">
                     <div class="row">
-                        <div class="col-sm-12" id="title-project"> Relay Chat Room
+                        <div class="col-sm-12" id="title-project"> Hockey Database
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12" id="duration-project"> October 2018 - December 2018
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12" id="description-project">
+                            <br></br>
+                            I have designed and deployed a database on Postgres which would query questions most likely asked by hockey enthusiasts such as goals scored, goals blocked, wins, or penalty box times for players. In order to respond to faster reads and loads for certain queries indexing was done on keys that are most likely to be used to answer common
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12" id="core-technology-project">Core Technologies: Python, PHP, Postgres, Excel
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12" id="keywords-project">Keywords: Benchmark, Database, Typescript
+                        </div>
+                    </div>
+                </div>
+                <div class="network">Networks and Systems
+                </div>
+                <div class="container" id="border-end">
+                    <div class="row">
+                        <div class="col-sm-12" id="title-project"> IRC-style client and server system
                         </div>
                     </div>
                     <div class="row">
@@ -160,14 +189,9 @@ export default class Projects extends React.Component {
                     </div>
                     <div class="row">
                         <div class="col-sm-12" id="description-project">
-                            I have developed and deployed a database on the Microsoft Azure SQL database system. The
-                            goal of the project was to expand my experience utilizing cloud databases as well as test the
-                            speed and quality of the database utilizing the Wisconsin benchmark. The input data was
-                            produced using python and was fed into the database to test the benchmarks at multiple data
-                            loads against local Postgres. The test was done by querying heavy compute data stores such
-                            as full merge sort queries.
+                            <br></br>
+                            I have developed and deployed IRC program that allows for multiple users to chat with eachother in single or multiple rooms, as well as provide system administrative privileges. This projet was used to introduce and used to gain experience with sockets. Additionaly an internet draft that fully conforms to BCP 78 and BCP 79.                    </div>
                         </div>
-                    </div>
                     <div class="row">
                         <div class="col-sm-12" id="core-technology-project">Core Technologies: Python, Git, Socket
                         </div>

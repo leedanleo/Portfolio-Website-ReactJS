@@ -20,21 +20,21 @@ export default class Education extends React.Component {
                 <div className="box">
                     Master of Science Renewable Energy Engineering<br/>
                     Oregon Institute of Technology<br/>
-                    2013—2015<br/>
+                    2013 — 2015<br/>
                     GPA 3.67<br/>
                 </div>
 
                 <div className="box">
                     Master's Certification in Project Management<br/>
                     Portland State University<br/>
-                    2014—2015<br/>
+                    2014 — 2015<br/>
                     GPA 3.92<br/>
                 </div>
 
                 <div className="box">
                     Bachelor of Science Renewable Energy Engineering<br/>
                     Oregon Institute of Technology<br/>
-                    2009—2013<br/>
+                    2009 — 2013<br/>
                     GPA 3.87<br/>
                 </div>
             </div>
