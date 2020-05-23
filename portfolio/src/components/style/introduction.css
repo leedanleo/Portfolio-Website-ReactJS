@@ -1,7 +1,24 @@
-.introduction {
+@media(max-width: 767px){
+  .introduction {
     text-align: center;
     color: #ffffff;
     font-size: 20px;
     margin: 1px;
     border: solid white;
+    background-color: rgba(1,1,1,0.5);
   }
+}
+
+@media(min-width: 768px){
+  .introduction {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: solid white;
+    background-color: rgba(1,1,1,0.5);
+  }
+}

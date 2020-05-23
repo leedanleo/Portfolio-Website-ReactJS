@@ -40,12 +40,10 @@
 .row #core-technology-project,.row #keywords-project, .row #description-project,.row #duration-project, .row #title-project{
 
     color: white;
-
     background-color: darkslategray;
-
     border-radius: 5px;
-
     margin: 10px 10px 10px 10px;
+    padding: 5px;
 
 }
 
@@ -64,6 +62,8 @@
     float: left;
 
 }
+
+
 
 
 
