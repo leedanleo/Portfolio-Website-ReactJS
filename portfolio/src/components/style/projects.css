@@ -3,94 +3,50 @@
     margin-right: 20%;
     margin-left: 20%;
     margin-bottom: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
 }
 
 .project-head{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+
+}
+
+#category{
     font-size: 30px;
-
-    font-weight: bold;
-
-    text-align:center;
-
-    margin: 10px 10px 10px 10px;
-
-}
-
-.database , .full-stack, .network, .machine-learning{
-
-    font-size: 24px;
-
-    color: white;
-
-    font-weight: bold;
-
-    text-align:center;
-
-    background-color: rgba(31, 58, 117, 0.4);
-
-    margin: 10px 10px 10px 10px;
-
-    border-radius: 5px;
-
-}
-
-
-
-.row #core-technology-project,.row #keywords-project, .row #description-project,.row #duration-project, .row #title-project{
-
-    color: white;
-    background-color: darkslategray;
-    border-radius: 5px;
-    margin: 10px 10px 10px 10px;
     padding: 5px;
-
 }
 
-
-
-.row #core-technology-project,.row #keywords-project{
-
-    font-size: 14px;
-
-}
-
-.row #title-project{
-
+#Work {
     font-size: 20px;
-
-    float: left;
-
+    background-color: rgba(12,12,2,0.6);
+    padding: 10px;
+    outline: 5px solid wheat;
+    margin: 20px;
 }
 
-
-
-
-
-.row #duration-project{
-
-    font-size:18px;
-    text-align: right;
-
-}
-
-.row #description-project{
-
-    font-size: 16px;
-    
-    text-align: left;
-
-}
-
-
-
-#border-end.container{
-    margin-top: 15px;
-
-    border-width: 5px;
-
-    margin-bottom: 15px;
-    
+.machine-learning, .full-stack, .databases, .network{
+    border-radius: 12px;
     padding: 5px;
+    text-align: left;
+}
 
+.machine-learning{
+    background-color: rgba(205, 133, 63, 0.7);
+}
+
+.full-stack{
+    background-color: rgba(165, 42, 42, 0.7);
+}
+
+.databases{
+    background-color: rgba(85, 107, 47,0.7);
+}
+
+.network{
+    background-color: rgba(47, 79, 79, 0.7);
 }
