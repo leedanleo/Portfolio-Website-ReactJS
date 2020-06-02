@@ -7,8 +7,9 @@ export default class Experience extends React.Component {
     render() {
       return (
         <div className="experience">
-                <div class="experience-head">Work Experience</div>
-                <div class="job">
+                <div className="experience-head">Work Experience</div>
+                <div className="job">
+                <div id ="border">
                    Title: Software Engineering Intern<br/><br/>
                    Organization: Hewlett-Packard Inc<br/><br/>
                    Location: SE 164th Ave, Vancouver WA 98683<br/><br/>
@@ -26,8 +27,10 @@ export default class Experience extends React.Component {
 
                    Core Technologies: C++, Python, Git, Gerrit, Google Test, Jira, GNU make 
                 </div>
-
-                <div class="job">
+                </div>  
+                <br></br><br></br>
+                <div className="job">
+                <div id ="border">
                    Title: Electrical Engineer 1<br/><br/>
                    Organization: Black and Veatch<br/><br/>
                    Location: 5885 Meadows Rd #700, Lake Oswego OR 97035<br/><br/>
@@ -48,9 +51,10 @@ export default class Experience extends React.Component {
 
                    Core Technologies: Sesbatch, Blue Beam, Microstation
                 </div>
-
-                
-                <div class="job">
+                </div>
+                <br></br><br></br>
+                <div className="job">
+                <div id ="border">
                    Title: Researcher<br/><br/>
                    Organization: Hydroresearch Foundation<br/><br/>
                    Location: 8200 Shaffer Pkwy #270585, Littleton CO 80127<br/><br/>
@@ -73,8 +77,10 @@ export default class Experience extends React.Component {
 
                    Core Technologies: Labview, Autocad
                 </div>
-
+                </div>
+                <br></br><br></br>
                 <div class="job">
+                <div id ="border">
                    Title: Graduate Teaching Assistant<br/><br/>
                    Organization: Oregon Insitute Of Technology<br/><br/>
                    Location: 27500 SW Parkway Ave, Wilsonville OR 97070<br/><br/>
@@ -92,8 +98,11 @@ export default class Experience extends React.Component {
 
                    Core Technologies: Microsoft Office Suite
                 </div>
-
+                </div>
+                <br></br><br></br>
+                
                 <div class="job">
+                <div id ="border">
                    Title: Electrical Engineering Intern<br/><br/>
                    Organization: United States Army Corps Of Engineers Hydroelectric Design Center<br/><br/>
                    Location: 333 SW 1st Ave, Portland OR 97204<br/><br/>
@@ -110,6 +119,7 @@ export default class Experience extends React.Component {
                    </ul>
 
                    Core Technologies: Microstation
+                </div>
                 </div>
             </div>
       );

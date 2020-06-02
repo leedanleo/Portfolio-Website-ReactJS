@@ -4,7 +4,7 @@
     margin-right: 20%;
     margin-left: 20%;
     margin-bottom: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 
 }
 
@@ -20,12 +20,14 @@
 
 .job{
     color: #ffffff;
-    background-color: rgba(197, 147, 39, 0.842);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    background-color: rgba(197, 147, 39, 0.6);
     text-align: left;
     border-radius: 5px;
     min-width: 150px;
+}
+
+#border {
+    background-color: rgba(47, 79, 79, 0.7);
     outline: 5px solid wheat;
     padding: 10px;
 }

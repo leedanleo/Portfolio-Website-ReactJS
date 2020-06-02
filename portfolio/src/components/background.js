@@ -1,5 +1,5 @@
 import React from "react";
-import Nature from "./video/waterfall2.mp4";
+import Nature from "./video/waterfall1.mp4";
 import VideoPoster from "./images/GitHub.png"; /*need to change this and make it work later*/
 import './style/background.css';
 
