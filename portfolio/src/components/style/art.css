@@ -1,0 +1,32 @@
+
+.art {
+    margin-top: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+}
+
+.art-head{
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    margin: 10px 10px 10px 10px;
+
+}
+
+
+.paint{
+    color: #000000;
+    text-align: center;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+#item {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}

@@ -11,6 +11,29 @@ export default class Experience extends React.Component {
                 <div className="job">
                 <div id ="border">
                    Title: Software Engineering Intern<br/><br/>
+                   Organization: Novus Labs<br/><br/>
+                   Location: 1365 NE Amberglen Pkwy, Hillsboro, OR 97006<br/><br/>
+                   Duration: June 2020 - Present<br/><br/>
+                   As a software engineering intern at Novus Labs, I worked with IoT devices. My responsibilities include:
+
+                   <ul>
+                       <li>Writing automated tests for smart and IoT devices to verify feature set and connectivity integrity. 
+                       </li>
+                       <li>Generating documentation of results for tested devices for clients to ensure issues with the build are communicated effectively.
+                       </li>
+                       <li>Automating redundant processes in testing and error logging of devices.
+                       </li>
+                       <li>Testing smart devices connectivity as the source and sink for the main IoT application.
+                       </li>
+                   </ul>
+
+                   Core Technologies: Python, Bitbucket, Jira, Bluetooth, Android Debug Bridge, Linux, Windows, Bash
+                </div>
+                </div>  
+                <br></br><br></br>
+                <div className="job">
+                <div id ="border">
+                   Title: Software Engineering Intern<br/><br/>
                    Organization: Hewlett-Packard Inc<br/><br/>
                    Location: SE 164th Ave, Vancouver WA 98683<br/><br/>
                    Duration: June 2019 - September 2019<br/><br/>

@@ -1,11 +1,11 @@
-#education, #experience, #activities, #projects{
+#education, #experience, #activities, #projects, #art{
     display:inline-block;
     min-width: 182px; /*prevents overlap*/
     color:white;
     font-weight: bold;
 }
 
-#education:hover, #experience:hover, #activities:hover, #projects:hover{
+#education:hover, #experience:hover, #activities:hover, #projects:hover, #art:hover{
     background: rgba(73, 78, 78, 0.6);
     border-radius: 5px;
     color: #000000;
