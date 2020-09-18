@@ -24,7 +24,7 @@
         display:none;
     }
     .full-page{
-        background:url('../images/poster.png');
+        background:url('../images/daybeach1static.PNG');
         width:100%;
         height: 100%; /* changing from min-height: 200px to height: 100% will leave no white space */
         background-size: cover;
